@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./scripts/index.js"></script>
+    <title>Rock, Paper, Odin!</title>
+    <script src="./scripts/index.js" defer></script>
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
+    <div id='header'>
+        <h2 id="rps">Rock, Paper, Scissors</h2>
+    </div>
+    
+    <div id = 'playButtons'>
+        <button id ='rockButton'>ROCK</button>
+        <button id ='paperButton'>PAPER</button>
+        <button id ='scissorsButton'>SCISSORS</button>
+    </div>
+
+    <div id = 'score'>
+        <div id='player'>Player: <span id='pValue'>0</span> </div>
+        <div id='computer'>Computer: <span id='cValue'> 0</span> </div>
+    </div>
 
 </body>
 </html>
